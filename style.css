@@ -1,0 +1,122 @@
+body {
+  margin: 0;
+  font-family: spotify-circular, Helvetica, Arial, sans-serif;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+a:hover {
+  color: #1ed760;
+}
+
+nav {
+  height: 80px;
+  background-color: black ;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav-text {
+  font-weight: 700;
+  padding: 28px 17px;
+}
+
+main {
+  height: 968px;
+  color: #1ed760;
+  background-color: rgb(41, 65, 171);
+  background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+  background-size: 175%;
+  background-position: 46% 4%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .main-container {
+  height: 968px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+} */
+
+.headline {
+  font-size: 146px;
+  font-weight: 900;
+  position: relative;
+  left: 225px;
+}
+.headline-first {
+  position: relative;
+  left: -1em;
+}
+.sub-headline {
+  margin: 40px 0;
+  text-align: center;
+}
+.button-style {
+  background-color: #1ed760;
+  color: rgb(41, 65, 171);
+  border-radius: 500px;
+  border: none;
+  font-size: inherit;
+  font-weight: 700;
+  padding: 14px 32px;
+  text-align: center;
+}
+.button-area {
+  text-align: center;
+}
+
+footer {
+  height: 530px;
+  background-color: black;
+}
+.footer-menu {
+  display: flex;
+  justify-content: space-around;
+}
+.footer-menu-link {
+  display: flex;
+}
+.footer-menu-link-container {
+  display: flex;
+  flex-direction: column;
+  padding: 0 15px;
+}
+.footer-menu-link-header {
+  color: #919496;
+  font-weight: 900;
+  margin: 20px 0;
+}
+.footer-menu-link-item {
+  font-size: 16px;
+  padding-bottom: 15px;
+  padding-top: 3px;
+}
+.footer-menu-sns {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer-menu-sns-iconbox {
+  width: 54px;
+  height: 54px;
+  background-color: #222322;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  margin-right: 15px;
+}
+.footer-menu-sns-icon {
+  font-size: 24px;
+  color: white;
+
+}
+.white {
+  color: white;
+}
+.logo-size {
+  width: 132px;
+}
